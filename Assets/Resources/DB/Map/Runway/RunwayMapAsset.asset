@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a366507de6e4aa44aea490bd69adace, type: 3}
+  m_Name: RunwayMapAsset
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Map/Runway/RunwayMapAsset
+      Guid:
+        Value: 3863096420912542093
+    UserAsset:
+      Id:
+        Value: 0
+    Scene: Runway
+    WorldSize: 256
+    BucketsCount: 16
+    BucketsSubdivisions: 8
+    BucketingAxis: 0
+    SortingAxis: 1
+    TriangleMeshCellSize: 4
+    StaticColliders3DTrianglesData:
+      Id:
+        Value: 232031322346383723
+    StaticColliders3DTrianglesBinaryFile: 
+    GridSizeX: 2
+    GridSizeY: 2
+    GridNodeSize: 2
+    NavMeshLinks: []
+    Regions: []
+    StaticColliders2D: []
+    StaticColliders3D:
+    - Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 65536
+      Position:
+        X:
+          RawValue: 222167
+        Y:
+          RawValue: -23592
+        Z:
+          RawValue: -360448
+      PhysicsMaterial:
+        Id:
+          Value: 0
+      ShapeType: 2
+      SphereRadius:
+        RawValue: 0
+      BoxExtents:
+        X:
+          RawValue: 1310720
+        Y:
+          RawValue: 32768
+        Z:
+          RawValue: 819200
+      SmoothSphereMeshCollisions: 0
+      StaticData:
+        Name: TerrainStaticCollider
+        Tag: Untagged
+        Layer: 0
+        Asset:
+          Id:
+            Value: 0
+        IsTrigger: 0
+        ColliderIndex: 0
+        MutableMode: 0
+      MutableMode: 0
+    - Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 46314
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 46367
+      Position:
+        X:
+          RawValue: -732692
+        Y:
+          RawValue: 64225
+        Z:
+          RawValue: -323092
+      PhysicsMaterial:
+        Id:
+          Value: 0
+      ShapeType: 2
+      SphereRadius:
+        RawValue: 0
+      BoxExtents:
+        X:
+          RawValue: 819200
+        Y:
+          RawValue: 81264
+        Z:
+          RawValue: 65536
+      SmoothSphereMeshCollisions: 0
+      StaticData:
+        Name: EndPoint
+        Tag: Untagged
+        Layer: 0
+        Asset:
+          Id:
+            Value: 0
+        IsTrigger: 1
+        ColliderIndex: 1
+        MutableMode: 0
+      MutableMode: 0
+    MapEntities: []
+  Prototypes:
+  - CustomAnimator: []
+    Dynamic_Collider: []
+    Dynamic_Trigger: []
+    GameSceneEntity: []
+    GameSceneTrigger: []
+    HitBox: []
+    PlayerFields: []
+    SceneObjEntityAnimation: []
+    SpawnPoint:
+    - Index: 0
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 1161297
+        Y:
+          RawValue: 65536
+        Z:
+          RawValue: -144179
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 17694720
+        Z:
+          RawValue: 0
+    View: []
+  - CustomAnimator: []
+    Dynamic_Collider: []
+    Dynamic_Trigger: []
+    GameSceneEntity: []
+    GameSceneTrigger: []
+    HitBox: []
+    PlayerFields: []
+    SceneObjEntityAnimation: []
+    SpawnPoint:
+    - Index: 1
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 1161297
+        Y:
+          RawValue: 65536
+        Z:
+          RawValue: -303431
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 17694720
+        Z:
+          RawValue: 0
+    View: []
+  - CustomAnimator: []
+    Dynamic_Collider: []
+    Dynamic_Trigger: []
+    GameSceneEntity: []
+    GameSceneTrigger: []
+    HitBox: []
+    PlayerFields: []
+    SceneObjEntityAnimation: []
+    SpawnPoint:
+    - Index: 2
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 1161297
+        Y:
+          RawValue: 65536
+        Z:
+          RawValue: -465960
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 17694720
+        Z:
+          RawValue: 0
+    View: []
+  - CustomAnimator: []
+    Dynamic_Collider: []
+    Dynamic_Trigger: []
+    GameSceneEntity: []
+    GameSceneTrigger: []
+    HitBox: []
+    PlayerFields: []
+    SceneObjEntityAnimation: []
+    SpawnPoint:
+    - Index: 3
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 1161297
+        Y:
+          RawValue: 65536
+        Z:
+          RawValue: -625868
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 17694720
+        Z:
+          RawValue: 0
+    View: []

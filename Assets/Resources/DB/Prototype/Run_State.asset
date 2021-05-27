@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d72b628cf33e4944b027a74a2fe7fd8, type: 3}
+  m_Name: Run_State
+  m_EditorClassIdentifier: 
+  animatorState: {fileID: -8260977206412068621, guid: e0e188cf0ff56e84e8d6a70067c497c0,
+    type: 2}
+  stateBehaviours:
+  - {fileID: 11400000, guid: c5a59c652b8257040a48b7fe98aaaa7a, type: 2}
+  nameList:
+  - Move_Speed
+  Settings:
+    Identifier:
+      Path: Resources/DB/Prototype/Run_State
+      Guid:
+        Value: 3217114079963038009
+    isCrouching: 0
+    snapRotation: 1
+    stateName: 
+    mainExtents:
+      Center:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 70120
+        Z:
+          RawValue: 11822
+      Extents:
+        X:
+          RawValue: 32768
+        Y:
+          RawValue: 70963
+        Z:
+          RawValue: 34557
+    hurtBoxSets:
+    - frameIndex: 0
+      hurtBoxes:
+      - Center:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 70121
+          Z:
+            RawValue: 11822
+        Extents:
+          X:
+            RawValue: 32768
+          Y:
+            RawValue: 70963
+          Z:
+            RawValue: 34558
+    behaviours:
+    - Id:
+        Value: 1055541347142789678
+    canMove: 1
+    canAttack: 1

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d72b628cf33e4944b027a74a2fe7fd8, type: 3}
+  m_Name: Idle_State
+  m_EditorClassIdentifier: 
+  animatorState: {fileID: 2149612166592339894, guid: e0e188cf0ff56e84e8d6a70067c497c0,
+    type: 2}
+  stateBehaviours: []
+  nameList: []
+  Settings:
+    Identifier:
+      Path: Resources/DB/Prototype/Idle_State
+      Guid:
+        Value: 4604027641762301889
+    isCrouching: 0
+    snapRotation: 1
+    stateName: 
+    mainExtents:
+      Center:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 68641
+        Z:
+          RawValue: 2605
+      Extents:
+        X:
+          RawValue: 32768
+        Y:
+          RawValue: 69502
+        Z:
+          RawValue: 32768
+    hurtBoxSets:
+    - frameIndex: 0
+      hurtBoxes:
+      - Center:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 68641
+          Z:
+            RawValue: 2605
+        Extents:
+          X:
+            RawValue: 32768
+          Y:
+            RawValue: 69503
+          Z:
+            RawValue: 32768
+    behaviours: []
+    canMove: 1
+    canAttack: 1

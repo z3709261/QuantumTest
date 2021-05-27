@@ -1,0 +1,80 @@
+﻿asset SceneObjAnimationClip;
+
+component SceneObjEntityAnimation
+{
+	FP										PlayTime;
+	list<AssetRefSceneObjAnimationClip>		Clips;
+	Int32									nowClipIndex;
+	FPVector3								InitPosition;
+	FPQuaternion							InitRotate;
+}
+
+asset CustomAnimatorGraph;
+
+asset CustomAnimatorBehaviour;
+
+component CustomAnimator{
+	
+	asset_ref<CustomAnimatorGraph> animatorGraph;
+	
+	list<CustomAnimatorRuntimeVariable> AnimatorVariables;
+
+	list<AssetGuid> TriggeredStateBehaviours;
+
+	FP time;
+	FP normalized_time;
+	FP last_time;
+	FP length;
+	Int32 current_state_id;
+	Boolean freeze;
+	FP speed;
+
+	Int32 from_state_id;
+	FP from_state_time;
+	FP from_state_last_time;
+	FP from_state_normalized_time;
+	FP from_length;
+
+	Int32 to_state_id;
+	FP to_state_time;
+	FP to_state_last_time;
+	FP to_state_normalized_time;
+	FP to_length;
+
+	Int32 transition_index;
+	FP transition_time;
+	FP transition_duration;
+	Int32 animator_blend_count;
+}
+
+
+union CustomAnimatorRuntimeVariable{
+	FP FPValue;
+	Int32 IntegerValue;
+	Boolean BooleanValue;
+}
+
+
+
+// Singal work
+signal OnAnimatorStateEnter(EntityRef entity, CustomAnimator* animator);
+// Singal work
+signal OnAnimatorStateUpdate(EntityRef entity, CustomAnimator* animator);
+// Singal work
+signal OnAnimatorStateExit(EntityRef entity, CustomAnimator* animator);
+
+
+// Asset for state specific data
+asset GameAnimatorState;
+
+
+component HitBox
+{
+	EntityRef	attacker;
+    Int32       frameIndex;
+    FPBounds3   bound;
+    QBoolean    IsActive;
+}
+
+
+signal OnHit(EntityRef AttackEntity, EntityRef HitEntity);

@@ -1,0 +1,9 @@
+﻿
+component SpawnPoint
+{
+	Int32		Index;
+}
+
+component Dynamic_Collider{}
+
+component Dynamic_Trigger{}

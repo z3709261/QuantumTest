@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7344f47c3a522a849bee3702df391745, type: 3}
+  m_Name: Move_Speed
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Prototype/Behaviours/Move_Speed
+      Guid:
+        Value: 1055541347142789678
+    setOnEnter: 1
+    entrySpeedInfo:
+      setSpeed: 1
+      Speed:
+        RawValue: 163840
+      setGravity: 0
+      gravity:
+        RawValue: 0
+      calculateWithJumpHeight: 0
+      jumpHeight:
+        RawValue: 0
+      jumpTime:
+        RawValue: 0

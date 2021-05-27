@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
+  m_Name: AssetResources
+  m_EditorClassIdentifier: 
+  AssetBundlesGroup:
+    _resources: []
+  ResourcesGroup:
+    _resources:
+    - Path: Resources/DB/Configs/DefaultPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1
+      ResourcePath: DB/Configs/DefaultPhysicsMaterial
+    - Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
+      AssetRef:
+        Id:
+          Value: 2
+      ResourcePath: DB/Configs/DefaultNavMeshAgentConfig
+    - Path: Resources/DB/Configs/DefaultCharacterController2D
+      AssetRef:
+        Id:
+          Value: 3
+      ResourcePath: DB/Configs/DefaultCharacterController2D
+    - Path: Resources/DB/Configs/DefaultCharacterController3D
+      AssetRef:
+        Id:
+          Value: 4
+      ResourcePath: DB/Configs/DefaultCharacterController3D
+    - Path: Resources/DB/Configs/SimulationConfig
+      AssetRef:
+        Id:
+          Value: 5
+      ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/Map/Racing/RacingMapAsset
+      AssetRef:
+        Id:
+          Value: 100858119661916629
+      ResourcePath: DB/Map/Racing/RacingMapAsset
+    - Path: Resources/DB/Map/Runway/RunwayMapAsset_mesh
+      AssetRef:
+        Id:
+          Value: 232031322346383723
+      ResourcePath: DB/Map/Runway/RunwayMapAsset_mesh
+    - Path: Resources/DB/Prototype/Behaviours/NoMove_Speed
+      AssetRef:
+        Id:
+          Value: 580590523907293405
+      ResourcePath: DB/Prototype/Behaviours/NoMove_Speed
+    - Path: Resources/DB/Map/IdleState
+      AssetRef:
+        Id:
+          Value: 819577503463313120
+      ResourcePath: DB/Map/IdleState
+    - Path: Resources/DB/Map/JumpSurvival/SphereEntity|EntityView
+      AssetRef:
+        Id:
+          Value: 854949155049528240
+      ResourcePath: DB/Map/JumpSurvival/SphereEntity
+    - Path: Resources/DB/Prototype/Behaviours/Move_Speed
+      AssetRef:
+        Id:
+          Value: 1055541347142789678
+      ResourcePath: DB/Prototype/Behaviours/Move_Speed
+    - Path: Resources/DB/Prototype/Role_Animator
+      AssetRef:
+        Id:
+          Value: 1113559371287972580
+      ResourcePath: DB/Prototype/Role_Animator
+    - Path: Resources/DB/Map/New Game Animator State Asset_GameAttackStateAsset
+      AssetRef:
+        Id:
+          Value: 1249216411270986166
+      ResourcePath: DB/Map/New Game Animator State Asset_GameAttackStateAsset
+    - Path: Resources/DB/Map/DangerousTurntable/DangerousTurntableMapAsset
+      AssetRef:
+        Id:
+          Value: 1374891884752288288
+      ResourcePath: DB/Map/DangerousTurntable/DangerousTurntableMapAsset
+    - Path: Resources/DB/Map/JumpSurvival/JumpSurvivalMapAsset_mesh
+      AssetRef:
+        Id:
+          Value: 1585582634843956690
+      ResourcePath: DB/Map/JumpSurvival/JumpSurvivalMapAsset_mesh
+    - Path: Resources/DB/Prototype/Attack_State
+      AssetRef:
+        Id:
+          Value: 1591704211946975908
+      ResourcePath: DB/Prototype/Attack_State
+    - Path: Resources/DB/Prototype/Fail_State
+      AssetRef:
+        Id:
+          Value: 2034316354887689723
+      ResourcePath: DB/Prototype/Fail_State
+    - Path: Resources/DB/Map/DangerousTurntable/FallAnimation
+      AssetRef:
+        Id:
+          Value: 2232473580265426288
+      ResourcePath: DB/Map/DangerousTurntable/FallAnimation
+    - Path: Resources/DB/Prototype/Hurt_State
+      AssetRef:
+        Id:
+          Value: 2397957223555988494
+      ResourcePath: DB/Prototype/Hurt_State
+    - Path: Resources/DB/Map/New Game Animator State Asset
+      AssetRef:
+        Id:
+          Value: 2507056432432723305
+      ResourcePath: DB/Map/New Game Animator State Asset
+    - Path: Resources/DB/Map/New Custom Animator Graph Asset
+      AssetRef:
+        Id:
+          Value: 2619426867965828535
+      ResourcePath: DB/Map/New Custom Animator Graph Asset
+    - Path: Resources/DB/Prototype/RoleEntityPrototype|EntityView
+      AssetRef:
+        Id:
+          Value: 2720797788280261657
+      ResourcePath: DB/Prototype/RoleEntityPrototype
+    - Path: Resources/DB/Map/JumpSurvival/SphereEntity|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2799639313935187073
+      ResourcePath: DB/Map/JumpSurvival/SphereEntity
+    - Path: Resources/DB/Map/EmptyMapAsset_mesh
+      AssetRef:
+        Id:
+          Value: 2827788325378801761
+      ResourcePath: DB/Map/EmptyMapAsset_mesh
+    - Path: Resources/DB/Prototype/Behaviours/Attack_State_GameAttackStateAsset
+      AssetRef:
+        Id:
+          Value: 2925892342671131506
+      ResourcePath: DB/Prototype/Behaviours/Attack_State_GameAttackStateAsset
+    - Path: Resources/DB/Prototype/Run_State
+      AssetRef:
+        Id:
+          Value: 3217114079963038009
+      ResourcePath: DB/Prototype/Run_State
+    - Path: Resources/DB/Prototype/RoleEntityPrototype|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3242682899540164987
+      ResourcePath: DB/Prototype/RoleEntityPrototype
+    - Path: Resources/DB/Prototype/Jump_State
+      AssetRef:
+        Id:
+          Value: 3292289881097984084
+      ResourcePath: DB/Prototype/Jump_State
+    - Path: Resources/DB/Prototype/Behaviours/Hit_State
+      AssetRef:
+        Id:
+          Value: 3523976397189874992
+      ResourcePath: DB/Prototype/Behaviours/Hit_State
+    - Path: Resources/DB/Map/DangerousTurntable/DangerousTurntableMapAsset_mesh
+      AssetRef:
+        Id:
+          Value: 3725399363878109193
+      ResourcePath: DB/Map/DangerousTurntable/DangerousTurntableMapAsset_mesh
+    - Path: Resources/DB/Map/Runway/RunwayMapAsset
+      AssetRef:
+        Id:
+          Value: 3863096420912542093
+      ResourcePath: DB/Map/Runway/RunwayMapAsset
+    - Path: Resources/DB/Map/JumpSurvival/JumpSurvivalMapAsset
+      AssetRef:
+        Id:
+          Value: 3954226221787561709
+      ResourcePath: DB/Map/JumpSurvival/JumpSurvivalMapAsset
+    - Path: Resources/DB/Map/Racing/RacingMapAsset_mesh
+      AssetRef:
+        Id:
+          Value: 3958065920788430081
+      ResourcePath: DB/Map/Racing/RacingMapAsset_mesh
+    - Path: Resources/DB/Prototype/Win_State
+      AssetRef:
+        Id:
+          Value: 3981229655917781875
+      ResourcePath: DB/Prototype/Win_State
+    - Path: Resources/DB/Map/EmptyMapAsset
+      AssetRef:
+        Id:
+          Value: 4407773336263432148
+      ResourcePath: DB/Map/EmptyMapAsset
+    - Path: Resources/DB/Prototype/Idle_State
+      AssetRef:
+        Id:
+          Value: 4604027641762301889
+      ResourcePath: DB/Prototype/Idle_State

@@ -1,0 +1,8 @@
+﻿input {
+  FPVector2 Direction;
+  button PickThrowButton;
+  button JumpButton;
+
+  button LeftButton;
+  button RightButton;
+}

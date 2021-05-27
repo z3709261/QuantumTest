@@ -1,0 +1,65 @@
+﻿#define PLAYER_COUNT 8
+#pragma max_players PLAYER_COUNT
+
+enum EnumPlayerState {
+    None,
+	Idle,
+	Run,
+	Attack,
+	BeAttack,
+	Jump,
+	Fall,
+	Stand, 
+}
+
+struct PlayerState
+{
+    EnumPlayerState state;
+    FP          Time;
+
+}
+
+
+struct HurtBox
+{
+    Int32       frameIndex;
+    FPBounds2   bound;
+}
+
+component PlayerFields
+{
+	Int32			OwnerID;
+    PlayerState     CurState;
+	QBoolean 		LastLeftButton;
+
+    FP              MoveSpeed;
+    FP              Gravity;
+    
+    Boolean         hitByAttack;
+    FPBounds3       mainExtents;    
+	list<FPBounds3> hurtBoxList;
+}
+
+
+struct GamePlayer {
+    player_ref      Player;
+    Int64           roleid;
+    QStringUtf8<64> rolename;
+    Int32           headid;
+    Int32           avaterId;
+    Int32           hairId;
+    Int32           hairColor;
+    Int32           bodyColor;
+    QBoolean        IsLoadMap;
+    QBoolean        IsLoadScene;
+    QBoolean        IsLoadPlayer;
+    QBoolean        IsEnter;
+    QBoolean        IsFinish;
+	entity_ref      PlayerEntity;
+}
+
+
+synced event OnGamePlayerUpdate
+{
+	player_ref Player;
+}

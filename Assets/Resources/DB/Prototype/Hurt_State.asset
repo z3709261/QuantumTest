@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d72b628cf33e4944b027a74a2fe7fd8, type: 3}
+  m_Name: Hurt_State
+  m_EditorClassIdentifier: 
+  animatorState: {fileID: 7739880298531535778, guid: e0e188cf0ff56e84e8d6a70067c497c0,
+    type: 2}
+  stateBehaviours:
+  - {fileID: 11400000, guid: f5bd6ae9535fc3f428353835eb147e99, type: 2}
+  - {fileID: 11400000, guid: c80fc8af4cee3ef479bc2295524e46aa, type: 2}
+  nameList: []
+  Settings:
+    Identifier:
+      Path: Resources/DB/Prototype/Hurt_State
+      Guid:
+        Value: 2397957223555988494
+    isCrouching: 0
+    snapRotation: 1
+    stateName: 
+    mainExtents:
+      Center:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 67521
+        Z:
+          RawValue: 2485
+      Extents:
+        X:
+          RawValue: 32768
+        Y:
+          RawValue: 69472
+        Z:
+          RawValue: 31609
+    hurtBoxSets:
+    - frameIndex: 0
+      hurtBoxes:
+      - Center:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 67521
+          Z:
+            RawValue: 2485
+        Extents:
+          X:
+            RawValue: 32768
+          Y:
+            RawValue: 69473
+          Z:
+            RawValue: 31609
+    behaviours: []
+    canMove: 0
+    canAttack: 0

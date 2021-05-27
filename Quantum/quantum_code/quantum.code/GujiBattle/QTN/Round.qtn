@@ -1,0 +1,101 @@
+﻿
+asset RoundConfig;
+
+enum RoundState {
+	LoadMap,
+	LoadScene,
+	LoadPlayer,
+	Enter,
+	Ready,
+	Run,
+	Finish,
+	Ended, 
+}
+
+enum SecondRoundState
+{
+	Ready,
+    Run,
+    EndAnimation,
+    End,
+}
+
+component GameSceneEntity
+{
+	list<Int32>		Params;
+}
+
+component GameSceneTrigger
+{
+	list<Int32>		Params;
+}
+
+struct GameRoundData
+{
+	Int32		RoundIndex;
+
+	Int32		GameType;
+
+	RoundState	State;
+
+	Int32		SecondRound;
+	SecondRoundState SecondRoundState;
+	FP			SecondRoundTime;
+
+	FP			ReadyTime;
+
+	FP			Timer;
+
+	list<entity_ref> SceneEntitys;
+
+	list<player_ref> EndPlayers;
+}
+
+event OnGameRoundLoadMap
+{
+}
+
+event OnGameRoundLoadScene
+{
+	Int32		RoundIndex;
+	Int32		GameType;
+}
+
+event OnGameRoundLoadPlayer
+{
+	Int32		NeedLoadCount;
+}
+
+event OnGameRoundEnter
+{
+}
+
+event OnGameRoundReady
+{
+}
+
+
+event OnGameRoundRun
+{
+}
+
+
+event OnGameRoundPlayerEnd
+{
+	Int32		order;
+	player_ref	player;
+}
+
+event OnGameRoundFinish
+{
+}
+
+event OnGameRoundEnd
+{
+}
+
+event OnGameEvent
+{	
+    QStringUtf8<64> eventname;
+	list<Int32>		Params;
+}

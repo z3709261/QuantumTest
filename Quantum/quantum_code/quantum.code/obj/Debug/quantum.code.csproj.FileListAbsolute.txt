@@ -1,0 +1,14 @@
+E:\GuJiBattle\client\Assets\Photon\Quantum\Assemblies\quantum.code.dll
+E:\GuJiBattle\client\Assets\Photon\Quantum\Assemblies\quantum.code.pdb
+E:\GuJiBattle\client\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CoreCompileInputs.cache
+E:\GuJiBattle\client\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CopyComplete
+E:\GuJiBattle\client\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.dll
+E:\GuJiBattle\client\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.pdb
+E:\GuJiBattle\client\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.csprojAssemblyReference.cache
+E:\QuantumTest\Assets\Photon\Quantum\Assemblies\quantum.code.dll
+E:\QuantumTest\Assets\Photon\Quantum\Assemblies\quantum.code.pdb
+E:\QuantumTest\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.csprojAssemblyReference.cache
+E:\QuantumTest\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CoreCompileInputs.cache
+E:\QuantumTest\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CopyComplete
+E:\QuantumTest\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.dll
+E:\QuantumTest\Quantum\quantum_code\quantum.code\obj\Debug\quantum.code.pdb

@@ -1,0 +1,9 @@
+﻿
+event OnGameEnd
+{
+}
+
+global {
+	list<GamePlayer> PlayerList;
+    GameRoundData CurrentGameRound;
+}

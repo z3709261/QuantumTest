@@ -1,0 +1,4021 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fb3e9d1578c6549a58a834020476a1, type: 3}
+  m_Name: FallAnimation
+  m_EditorClassIdentifier: 
+  clip: {fileID: 7400000, guid: 190ff292680f11246bf65fa7a336fc51, type: 2}
+  Settings:
+    Identifier:
+      Path: Resources/DB/Map/DangerousTurntable/FallAnimation
+      Guid:
+        Value: 2232473580265426288
+    clipName: FallAnimation_First
+    length:
+      RawValue: 207530
+    index: 0
+    frameRate: 60
+    frameCount: 190
+    frames:
+    - id: 0
+      time:
+        RawValue: 0
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 1
+      time:
+        RawValue: 1098
+      position:
+        X:
+          RawValue: -333
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 2
+      time:
+        RawValue: 2196
+      position:
+        X:
+          RawValue: -1238
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 3
+      time:
+        RawValue: 3294
+      position:
+        X:
+          RawValue: -2571
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 4
+      time:
+        RawValue: 4392
+      position:
+        X:
+          RawValue: -4188
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 5
+      time:
+        RawValue: 5490
+      position:
+        X:
+          RawValue: -5945
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 6
+      time:
+        RawValue: 6588
+      position:
+        X:
+          RawValue: -7697
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 7
+      time:
+        RawValue: 7686
+      position:
+        X:
+          RawValue: -9303
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 8
+      time:
+        RawValue: 8784
+      position:
+        X:
+          RawValue: -10617
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 9
+      time:
+        RawValue: 9882
+      position:
+        X:
+          RawValue: -11495
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 10
+      time:
+        RawValue: 10980
+      position:
+        X:
+          RawValue: -11795
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 11
+      time:
+        RawValue: 12078
+      position:
+        X:
+          RawValue: -11428
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 12
+      time:
+        RawValue: 13176
+      position:
+        X:
+          RawValue: -10496
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 13
+      time:
+        RawValue: 14274
+      position:
+        X:
+          RawValue: -9145
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 14
+      time:
+        RawValue: 15372
+      position:
+        X:
+          RawValue: -7517
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 15
+      time:
+        RawValue: 16470
+      position:
+        X:
+          RawValue: -5757
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 16
+      time:
+        RawValue: 17568
+      position:
+        X:
+          RawValue: -4009
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 17
+      time:
+        RawValue: 18666
+      position:
+        X:
+          RawValue: -2415
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 18
+      time:
+        RawValue: 19764
+      position:
+        X:
+          RawValue: -1120
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 19
+      time:
+        RawValue: 20862
+      position:
+        X:
+          RawValue: -269
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 20
+      time:
+        RawValue: 21960
+      position:
+        X:
+          RawValue: -3
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 21
+      time:
+        RawValue: 23058
+      position:
+        X:
+          RawValue: -404
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 22
+      time:
+        RawValue: 24157
+      position:
+        X:
+          RawValue: -1361
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 23
+      time:
+        RawValue: 25255
+      position:
+        X:
+          RawValue: -2730
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 24
+      time:
+        RawValue: 26353
+      position:
+        X:
+          RawValue: -4369
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 25
+      time:
+        RawValue: 27451
+      position:
+        X:
+          RawValue: -6132
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 26
+      time:
+        RawValue: 28549
+      position:
+        X:
+          RawValue: -7876
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 27
+      time:
+        RawValue: 29647
+      position:
+        X:
+          RawValue: -9457
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 28
+      time:
+        RawValue: 30745
+      position:
+        X:
+          RawValue: -10732
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 29
+      time:
+        RawValue: 31843
+      position:
+        X:
+          RawValue: -11557
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 30
+      time:
+        RawValue: 32941
+      position:
+        X:
+          RawValue: -11787
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 31
+      time:
+        RawValue: 34039
+      position:
+        X:
+          RawValue: -11354
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 32
+      time:
+        RawValue: 35137
+      position:
+        X:
+          RawValue: -10371
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 33
+      time:
+        RawValue: 36235
+      position:
+        X:
+          RawValue: -8984
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 34
+      time:
+        RawValue: 37333
+      position:
+        X:
+          RawValue: -7336
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 35
+      time:
+        RawValue: 38431
+      position:
+        X:
+          RawValue: -5570
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 36
+      time:
+        RawValue: 39529
+      position:
+        X:
+          RawValue: -3831
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 37
+      time:
+        RawValue: 40627
+      position:
+        X:
+          RawValue: -2262
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 38
+      time:
+        RawValue: 41725
+      position:
+        X:
+          RawValue: -1007
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 39
+      time:
+        RawValue: 42823
+      position:
+        X:
+          RawValue: -211
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 40
+      time:
+        RawValue: 43921
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -35
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 41
+      time:
+        RawValue: 45019
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -1145
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 42
+      time:
+        RawValue: 46117
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -3768
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 43
+      time:
+        RawValue: 47215
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -7839
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 44
+      time:
+        RawValue: 48314
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -13295
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 45
+      time:
+        RawValue: 49412
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -20070
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 46
+      time:
+        RawValue: 50510
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -28103
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 47
+      time:
+        RawValue: 51608
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -37328
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 48
+      time:
+        RawValue: 52706
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -47681
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 49
+      time:
+        RawValue: 53804
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -59099
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 50
+      time:
+        RawValue: 54902
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -71519
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 51
+      time:
+        RawValue: 56000
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -84875
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 52
+      time:
+        RawValue: 57098
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -99104
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 53
+      time:
+        RawValue: 58196
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -114142
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 54
+      time:
+        RawValue: 59294
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -129925
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 55
+      time:
+        RawValue: 60392
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -146390
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 56
+      time:
+        RawValue: 61490
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -163471
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 57
+      time:
+        RawValue: 62588
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -181107
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 58
+      time:
+        RawValue: 63686
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -199231
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 59
+      time:
+        RawValue: 64784
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -217782
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 60
+      time:
+        RawValue: 65882
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -236694
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 61
+      time:
+        RawValue: 66980
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -255903
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 62
+      time:
+        RawValue: 68078
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -275347
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 63
+      time:
+        RawValue: 69176
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -294960
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 64
+      time:
+        RawValue: 70274
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -314679
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 65
+      time:
+        RawValue: 71372
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -334441
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 66
+      time:
+        RawValue: 72471
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -354180
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 67
+      time:
+        RawValue: 73569
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -373834
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 68
+      time:
+        RawValue: 74667
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -393338
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 69
+      time:
+        RawValue: 75765
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -412628
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 70
+      time:
+        RawValue: 76863
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -431641
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 71
+      time:
+        RawValue: 77961
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -450313
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 72
+      time:
+        RawValue: 79059
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -468579
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 73
+      time:
+        RawValue: 80157
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -486375
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 74
+      time:
+        RawValue: 81255
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -503639
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 75
+      time:
+        RawValue: 82353
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -520305
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 76
+      time:
+        RawValue: 83451
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -536310
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 77
+      time:
+        RawValue: 84549
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -551591
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 78
+      time:
+        RawValue: 85647
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -566082
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 79
+      time:
+        RawValue: 86745
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -579721
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 80
+      time:
+        RawValue: 87843
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -592443
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 81
+      time:
+        RawValue: 88941
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -604184
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 82
+      time:
+        RawValue: 90039
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -614881
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 83
+      time:
+        RawValue: 91137
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -624469
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 84
+      time:
+        RawValue: 92235
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -632885
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 85
+      time:
+        RawValue: 93333
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -640064
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 86
+      time:
+        RawValue: 94431
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -645944
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 87
+      time:
+        RawValue: 95529
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -650459
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 88
+      time:
+        RawValue: 96628
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -653546
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 89
+      time:
+        RawValue: 97726
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655141
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 90
+      time:
+        RawValue: 98824
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 91
+      time:
+        RawValue: 99922
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 92
+      time:
+        RawValue: 101020
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 93
+      time:
+        RawValue: 102118
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 94
+      time:
+        RawValue: 103216
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 95
+      time:
+        RawValue: 104314
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 96
+      time:
+        RawValue: 105412
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 97
+      time:
+        RawValue: 106510
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 98
+      time:
+        RawValue: 107608
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 99
+      time:
+        RawValue: 108706
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 100
+      time:
+        RawValue: 109804
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 101
+      time:
+        RawValue: 110902
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 102
+      time:
+        RawValue: 112000
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 103
+      time:
+        RawValue: 113098
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 104
+      time:
+        RawValue: 114196
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 105
+      time:
+        RawValue: 115294
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 106
+      time:
+        RawValue: 116392
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 107
+      time:
+        RawValue: 117490
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 108
+      time:
+        RawValue: 118588
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 109
+      time:
+        RawValue: 119687
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 110
+      time:
+        RawValue: 120785
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 111
+      time:
+        RawValue: 121883
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 112
+      time:
+        RawValue: 122981
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 113
+      time:
+        RawValue: 124079
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 114
+      time:
+        RawValue: 125177
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 115
+      time:
+        RawValue: 126275
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 116
+      time:
+        RawValue: 127373
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 117
+      time:
+        RawValue: 128471
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 118
+      time:
+        RawValue: 129569
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 119
+      time:
+        RawValue: 130667
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 120
+      time:
+        RawValue: 131765
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 121
+      time:
+        RawValue: 132863
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 122
+      time:
+        RawValue: 133961
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 123
+      time:
+        RawValue: 135059
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 124
+      time:
+        RawValue: 136157
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 125
+      time:
+        RawValue: 137255
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 126
+      time:
+        RawValue: 138353
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 127
+      time:
+        RawValue: 139451
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 128
+      time:
+        RawValue: 140549
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 129
+      time:
+        RawValue: 141647
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 130
+      time:
+        RawValue: 142745
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 131
+      time:
+        RawValue: 143844
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 132
+      time:
+        RawValue: 144942
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 133
+      time:
+        RawValue: 146040
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 134
+      time:
+        RawValue: 147138
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 135
+      time:
+        RawValue: 148236
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 136
+      time:
+        RawValue: 149334
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 137
+      time:
+        RawValue: 150432
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 138
+      time:
+        RawValue: 151530
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 139
+      time:
+        RawValue: 152628
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 140
+      time:
+        RawValue: 153726
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 141
+      time:
+        RawValue: 154824
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 142
+      time:
+        RawValue: 155922
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 143
+      time:
+        RawValue: 157020
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 144
+      time:
+        RawValue: 158118
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 145
+      time:
+        RawValue: 159216
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 146
+      time:
+        RawValue: 160314
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 147
+      time:
+        RawValue: 161412
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 148
+      time:
+        RawValue: 162510
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 149
+      time:
+        RawValue: 163608
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 150
+      time:
+        RawValue: 164706
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 151
+      time:
+        RawValue: 165804
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 152
+      time:
+        RawValue: 166902
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 153
+      time:
+        RawValue: 168001
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 154
+      time:
+        RawValue: 169099
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 155
+      time:
+        RawValue: 170197
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 156
+      time:
+        RawValue: 171295
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 157
+      time:
+        RawValue: 172393
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 158
+      time:
+        RawValue: 173491
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 159
+      time:
+        RawValue: 174589
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 160
+      time:
+        RawValue: 175687
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 161
+      time:
+        RawValue: 176785
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 162
+      time:
+        RawValue: 177883
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 163
+      time:
+        RawValue: 178981
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 164
+      time:
+        RawValue: 180079
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 165
+      time:
+        RawValue: 181177
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 166
+      time:
+        RawValue: 182275
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 167
+      time:
+        RawValue: 183373
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 168
+      time:
+        RawValue: 184471
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 169
+      time:
+        RawValue: 185569
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 170
+      time:
+        RawValue: 186667
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 171
+      time:
+        RawValue: 187765
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 172
+      time:
+        RawValue: 188863
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 173
+      time:
+        RawValue: 189961
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 174
+      time:
+        RawValue: 191059
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 175
+      time:
+        RawValue: 192158
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 176
+      time:
+        RawValue: 193256
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 177
+      time:
+        RawValue: 194354
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 178
+      time:
+        RawValue: 195452
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 179
+      time:
+        RawValue: 196550
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 180
+      time:
+        RawValue: 197648
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 181
+      time:
+        RawValue: 198746
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 182
+      time:
+        RawValue: 199844
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 183
+      time:
+        RawValue: 200942
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 184
+      time:
+        RawValue: 202040
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 185
+      time:
+        RawValue: 203138
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 186
+      time:
+        RawValue: 204236
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 187
+      time:
+        RawValue: 205334
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 188
+      time:
+        RawValue: 206432
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    - id: 189
+      time:
+        RawValue: 207530
+      position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -655360
+        Z:
+          RawValue: 0
+      rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 0
+      rotationY:
+        RawValue: 0
+    looped: 0
+    mirror: 0
+    havePosition: 1
+    haveRotate: 0
